@@ -1,0 +1,163 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    margin-left: 5pt;
+    margin-right: 5pt;
+    padding: 0;
+  }
+  
+  .work-of-art {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .work-of-art img {
+    width: 100%;
+    border-radius: 15px;
+    object-fit: contain;
+  }
+  
+  .work-of-art .title {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+
+  }
+  
+  .work-of-art .artist {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    margin-top: auto;
+  }
+  
+  .work-of-art .geological_era {
+    font-size: 1em;
+    padding-top: 1em;
+    margin-bottom: 0.5em;
+  }
+  
+  .work-of-art .category {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+  }
+  
+  .work-of-art .dimensions {
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
+  }
+  
+  .work-of-art .description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    margin-bottom: 1em;
+  }
+  
+  .circles {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #000000;
+    margin: 7px;
+  }
+  
+  span.circles:nth-child(1) {
+  background-color: red;
+    opacity: 25%;
+  }
+  
+  span.circles:nth-child(2) {
+    background-color: green;
+    opacity: 25%;
+  }
+  
+  span.circles:nth-child(3) {
+    background-color: blue;
+    opacity: 25%;
+  }
+  
+  span.circles:nth-child(4) {
+    background-color: yellow;
+    opacity: 25%;
+  }
+  
+  span.circles:nth-child(5) {
+    background-color: orange;
+    opacity: 25%;
+  }
+  
+  span.circles:nth-child(6) {
+    background-color: purple;
+    opacity: 25%;
+  }
+  
+  span.circles:nth-child(7) {
+    background-color: pink;
+    opacity: 25%;
+  }
+  
+  span.circles:nth-child(8) {
+    background-color: cyan;
+    opacity: 25%;
+  }
+  
+  span.circles:nth-child(9) {
+    background-color: magenta;
+    opacity: 100%;
+  }
+  
+  span.circles.circles:nth-child(10) {
+    background-color: olive;
+    opacity: 25%;
+  }
+  
+  h3 {
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 5px;
+    margin: 0;
+  }
+  
+  .fa fa-arrow-left {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    color: antiquewhite;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .sketchfab-embed-wrapper {
+    align-content: center;
+  }
+  
+  .d-model-btn{
+    background-color: white;
+    border: 3pt, blanchedalmond;
+    border-style:inset;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    align-self: center;
+    margin: 7px;
+  }
+  
+  iframe {
+        display: block;
+        margin: 5px auto;
+      }
+  
+  #question-input{
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+  }  
